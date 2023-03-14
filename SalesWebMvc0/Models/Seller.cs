@@ -46,9 +46,9 @@ namespace SalesWebMvc0.Models
 
         }
 
-        public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Department department)
+        public Seller(int Id, string name, string email, DateTime birthDate, double baseSalary, Department department)
         {
-            this.Id = id;
+            this.Id = Id;
             Name = name;
             Email = email;
             BirthDate = birthDate;

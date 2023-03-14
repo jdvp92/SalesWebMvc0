@@ -7,7 +7,6 @@ namespace SalesWebMvc0.Services.Exceptions
 
         public NotFoundException(string message) : base(message)
         {
-
         }
     }
 }
